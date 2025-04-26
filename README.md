@@ -9,7 +9,8 @@ Scopul acestei lucrări este familiarizarea cu `metodele de optimizare` a imagin
 
 ## Sarcina
 
-Compararea diferitelor `metode de optimizare` a imaginilor `Docker` prin construirea unei aplicații web bazate pe `NGINX`, utilizând un Dockerfile pentru a configura mediul și a integra fișierele site-ului (`HTML`, `CSS`, `JS`). Se vor aplica și testa metode precum eliminarea dependențelor neutilizate și a fișierelor temporare, reducerea numărului de straturi, utilizarea unei imagini de bază minime (`Alpine`), reambalarea imaginilor, și combinarea tuturor acestor metode, cu verificarea dimensiunilor imaginilor rezultate.
+Compararea diferitelor `metode de optimizare` a imaginilor `Docker` prin construirea unei aplicații web bazate pe `NGINX`, utilizând un Dockerfile pentru a configura mediul și a integra fișierele site-ului (`HTML`, `CSS`, `JS`). 
+Se vor aplica și testa metode precum eliminarea dependențelor neutilizate și a fișierelor temporare, reducerea numărului de straturi, utilizarea unei imagini de bază minime (`Alpine`), reambalarea imaginilor, și combinarea tuturor acestor metode, cu verificarea dimensiunilor imaginilor rezultate.
 
 --- 
 
