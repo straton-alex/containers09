@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formular de feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h3>Lăsați părerea dumneavoastră despre noi</h3>
+        <form id="feedbackForm">
+            <label for="nume">Numele:</label>
+            <input type="text" id="nume" name="nume" placeholder="Enter Text" required>
+
+            <label for="email">Emailul:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Text" required>
+
+            <label for="mesaj">Textul mesajului:</label>
+            <textarea id="mesaj" name="mesaj" placeholder="Enter Text" required></textarea>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </div>
+
+    <h3>Părerile clienților noștri</h3>
+    <div class="feedback-container" id="feedbackContainer">
+        <!-- Feedback-->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
