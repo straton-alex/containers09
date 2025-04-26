@@ -8,7 +8,9 @@
 Scopul acestei lucrări este familiarizarea cu `metodele de optimizare` a imaginilor `Docker`, dezvoltarea competențelor în reducerea dimensiunii imaginilor prin eliminarea dependențelor neutilizate, minimizarea numărului de straturi, utilizarea unei imagini de bază minime și reambalarea imaginilor, precum și compararea eficienței acestor metode prin construirea și testarea imaginilor într-un mediu `Docker`.
 
 ## Sarcina
+
 Compararea diferitelor `metode de optimizare` a imaginilor `Docker` prin construirea unei aplicații web bazate pe `NGINX`, utilizând un Dockerfile pentru a configura mediul și a integra fișierele site-ului (`HTML`, `CSS`, `JS`). Se vor aplica și testa metode precum eliminarea dependențelor neutilizate și a fișierelor temporare, reducerea numărului de straturi, utilizarea unei imagini de bază minime (`Alpine`), reambalarea imaginilor, și combinarea tuturor acestor metode, cu verificarea dimensiunilor imaginilor rezultate.
+
 --- 
 
 ### 1. Crearea unui proiect
@@ -47,7 +49,7 @@ Compararea diferitelor `metode de optimizare` a imaginilor `Docker` prin constru
     ```
     ![](images/Screenshot-2025-04-26-63951.png)
 
-- Creați în directorul `./site` aplicația Web pe baza `HTM`L, `CSS`, `JS` cu următoarea structură:
+- Creați în directorul `./site` aplicația Web pe baza `HTML`, `CSS`, `JS` cu următoarea structură:
     ```
     containers09/
     ├── site/
